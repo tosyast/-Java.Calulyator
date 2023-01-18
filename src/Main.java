@@ -52,11 +52,11 @@ public class Main {
                 System.out.println(sub);
             }
             if (Objects.equals(num, "4")) {
-                System.out.print("Введите 1 число(из которого будем вычитать): ");
+                System.out.print("Введите 1 число(что делим): ");
                 double a = scanner.nextDouble(); // 1 число
-                System.out.print("Введите 2 число(что будем вычитать): ");
+                System.out.print("Введите 2 число(на сколько делим): ");
                 double b = scanner.nextDouble(); // 2 число
-                double sub = a - b;
+                double sub = a / b;
                 System.out.print("Деление: ");
                 System.out.println(sub);
             }
